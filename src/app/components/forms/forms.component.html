@@ -18,8 +18,13 @@
     <label for="noite">Noite</label>
     <span>18:01 às 23:00</span>
   </div>
-  <div>
+  <div class="checkbox-wrapper">
     <input type="checkbox" name="show-closed">
     <label for="show-closed">Exibir unidades fechadas</label>
+    <span>Resultados encontrados: {{ results.length }}</span>
+  </div>
+  <div class="button-wrapper">
+    <button class="btn btn-primary">Encontrar unidade</button>
+    <button class="btn btn-secondary">Limpar</button>
   </div>
 </form>
